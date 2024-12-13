@@ -1,0 +1,20 @@
+
+.app-container {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+
+  aside {
+    margin: 20px ;
+    padding: 50px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  

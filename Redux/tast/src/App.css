@@ -1,0 +1,78 @@
+/* App Container */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full height of the viewport */
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light background color */
+    color: #333; /* Default text color */
+    margin: 0;
+  }
+  
+  /* Header Styling */
+  .app-container > :first-child {
+    background-color: #4a90e2; /* Blue background for header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Main Section Styling */
+  .app-container > :nth-child(2) {
+    flex: 1; /* Take up the remaining vertical space */
+    padding: 20px;
+    background-color: #ffffff; /* White background for contrast */
+    overflow-y: auto; /* Scrollable if content overflows */
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.05); /* Inner shadow for depth */
+  }
+  
+  /* Footer Styling */
+  .app-container > :last-child {
+    background-color: #4a90e2; /* Blue background */
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 1rem;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1); /* Shadow on top */
+  }
+  /* Main Container */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff; /* White background for contrast */
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.05); /* Inner shadow for depth */
+    height: 100%; /* Full height of the parent */
+  }
+  
+  /* Content Layout */
+  .main-content {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping for smaller screens */
+    gap: 20px; /* Space between components */
+    width: 100%;
+    max-width: 1200px; /* Limit the width of the content */
+  }
+  
+  /* Counter Styling */
+  .main-content > :first-child {
+    flex: 2; /* Takes up more space */
+    background-color: #f0f8ff; /* Light blue background */
+    padding: 15px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Aside Styling */
+  .main-content > :last-child {
+    flex: 1; /* Takes up less space */
+    background-color: #f7f7f7; /* Light gray background */
+    padding: 15px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
